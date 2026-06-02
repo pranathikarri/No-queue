@@ -1,0 +1,34 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Production builds
+dist/
+dist-ssr/
+build/
+
+# Local env files / secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+**/.env
+
+# Databases / local storage
+*.sqlite
+*.sqlite3
+**/database.sqlite
+
+# System / Editor files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tooling metadata
+.sixth/
